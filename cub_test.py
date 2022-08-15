@@ -75,7 +75,7 @@ parser.add_argument('--eval_only', default=True, help='only eval without trainin
 parser.add_argument('--save_H_OPT', action='store_true', help='save H_opt best model')
 ''' opt for model '''
 
-def main(m):
+def main():
     args = parser.parse_args()
 
     os.makedirs(args.save_path, exist_ok=True)
@@ -88,9 +88,9 @@ def main(m):
                       'disable data parallelism.')
 
     ngpus_per_node = torch.cuda.device_count()
-    main_worker(ngpus_per_node, args,m)
+    main_worker(ngpus_per_node, args)
     
-def main_worker(ngpus_per_node, args,m):
+def main_worker(ngpus_per_node, args):
     ''' multi-gpu '''
     if args.gpu is not None:
         print("Use GPU: {} for training".format(args.gpu))        
