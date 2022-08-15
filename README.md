@@ -20,7 +20,7 @@ Please download CUB, SUN, AWA2 datasets, and ResNet101 pretrained model.
 - Pre-trained models: please download the [pre-trained models](https://drive.google.com/file/d/1c5scuU0kZS5a9Rz3kf5T0UweCvOpGsh2/view?usp=sharing) and place it in *./pretrained_models/*.
 
 ## Test
-Please download the pretrained model (https://drive.google.com/drive/folders/1uvtTO5o4xp_bXV2txiYLGPmfJQuM7lwt?usp=sharing).
+Please download the pretrained model (https://drive.google.com/drive/folders/1u3gLKWjr8RfaLb1mA8Wo6T-Aml1JKs-U).
 
 Please specify the '--data' (for dataset path), '--resnet_pretrain'(ResNet101 pretrained model), '--resume' (pretrained model ), and then run:
 
