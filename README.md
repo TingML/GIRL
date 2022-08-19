@@ -1,4 +1,4 @@
-PyTorch implementation for paper: Dual Progressive Prototype Network for Generalized Zero-Shot Learning.
+PyTorch implementation for paper: Group-wise interactive region learning for zero-shot recognition.
 
 torch ==1.6.
 h5py ==3.7.0
