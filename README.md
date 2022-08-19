@@ -1,14 +1,23 @@
 PyTorch implementation for paper: Group-wise interactive region learning for zero-shot recognition.
 
 torch ==1.6.
+
 h5py ==3.7.0
+
 imageio == 2.21.0
+
 scipy ==1.7.3
+
 scikit-learn == 1.0.2
+
 scikit-image == 0.17.2
+
 sklearn == 0.0
+
 torchvision == 0.7.0
+
 tqdm == 4.64.0 
+
 wheel == 0.37.1
 
 
