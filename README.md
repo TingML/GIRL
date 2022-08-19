@@ -1,4 +1,4 @@
-PyTorch implementation for paper: Group-wise interactive region learning for zero-shot recognition.
+## PyTorch implementation for paper: Group-wise interactive region learning for zero-shot recognition.
 ```bash
 torch ==1.6.
 
