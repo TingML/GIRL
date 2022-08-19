@@ -1,5 +1,5 @@
 PyTorch implementation for paper: Group-wise interactive region learning for zero-shot recognition.
-
+```bash
 torch ==1.6.
 
 h5py ==3.7.0
@@ -19,7 +19,7 @@ torchvision == 0.7.0
 tqdm == 4.64.0 
 
 wheel == 0.37.1
-
+```
 
 ## Data and Model Preparation
 
